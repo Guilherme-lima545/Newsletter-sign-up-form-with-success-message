@@ -1,0 +1,145 @@
+body { 
+    background-color: hsl(234, 29%, 20%);
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+section {
+    margin: 0 auto;
+    max-width: 50%;
+    height: 635px;
+    margin-top: 7%;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 30px;
+}
+
+h1 {
+    font-family: "Robotob";
+}
+
+.imagembk {
+    position: relative;
+    display: flex;
+    margin-left: 540px;
+    top: 20px;
+}
+
+.titulo h1 {
+    position: absolute;
+    display: flex;
+    margin-top: -600px;
+    padding: 80px;
+    padding-left: 55px;
+    font-size: 50px;
+}
+
+.paragrafo p {
+    width: 20%;
+    position: absolute;
+    margin-top: -450px;
+    padding: 30px;
+    padding-left: 60px;
+}
+
+.check {
+    position: absolute;
+    display: inline;
+    width: 50%;
+    margin-top: -380px;
+    padding-top: 20px;
+    padding-left: 55px;
+    padding-bottom: 90px;
+}
+
+.check span {
+    margin-left: 1%;
+}
+
+.check .check2 {
+    margin-top: 1%;
+}
+
+.check .check3 {
+    margin-top: 1%;
+}
+
+form {
+    width: 10%;
+    padding: 20px;
+    position: absolute;
+    margin-top: -5%;
+    display: inline-block;
+}
+
+input {
+    font-family: "Roboto";
+    display: flex;
+    margin-top: -100px;
+    width: 420px;
+    padding-left: 20px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+label {
+    position: absolute;
+    font-size: 15px;
+    left: 13%;
+    margin-top: -130px;
+}
+
+button { 
+    font-family: "Roboto";
+    font-size: 20px;
+    border: none;
+    border-radius: 9px;
+    width: 445px;
+    color: white;
+    background-color: hsl(234, 29%, 20%);
+    height: 60px;
+    margin-left: 1px;
+    margin-top: 20px;
+}
+
+.hide {
+    display: none;
+}
+
+.sucesso {
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    
+}
+
+.sucesso h1 {
+    font-size: 40px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+.icon-card2 {
+    width: 50px;
+    align-items: center;
+    margin-left: 180px;
+    margin-top: 30px;
+}
+
+.sucesso button {
+  
+    left: 39%;
+    width: 100%;
+}
+
+.sucesso p {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0px;
+
+}
+
+.card-2 {
+    margin-top: 250px;
+}

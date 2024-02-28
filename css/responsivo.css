@@ -1,0 +1,106 @@
+@media (max-width: 768px) {
+    .card {
+        position: relative;
+        flex-direction: column-reverse;
+        margin-top: 100px;
+        width: 100%;
+    }
+
+    .card section {
+        margin-top: 50px;
+    }
+
+    .card h1 {
+        margin-top: 5%;
+        font-size: 30px;
+    }
+
+    .card .imagembk {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .card .titulo {
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+
+    .card p {
+        width: 30%;
+        align-items: center;
+        text-align: center;
+        margin-top: 140px;
+        right: 32%;
+    }
+
+    form {
+        margin-top: 450px;
+    }
+    button {
+        width: 450%;
+    }
+
+    input {
+        width: 420%;
+    }
+
+    .card .check {
+        margin-left: -30px;
+        margin-top: 220px;
+    }
+
+    .card-2 section {
+        margin-top: 30%;
+    }
+}
+
+@media (max-width: 1444px) { 
+    
+    .card  {
+        width: 125%;
+    }
+
+   .card .imagembk {
+    position: relative;
+    margin-left: 475px;
+   }
+
+}
+
+@media (max-width: 452px) {
+    .card section {
+        width: 140%;
+    }
+
+    form {
+        width: 10%;
+        margin-top: 90%;
+    }
+
+    label {
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    .card h1 {
+        width: 100%;
+        margin-left: -35px;
+    }
+
+    .card p {
+        right: inherit;
+    }
+
+    .card .check {
+        right: 22%;
+    }
+
+    .card-2 .sucesso .icon-card2 {
+        display: flex;
+        align-items: center;
+    }
+
+    .icon-card2 {
+        margin-left: 37%;
+    }
+}
